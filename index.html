@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-dars vazifa</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <form class="form" autocomplete="off">
+            <input type="text" id="input" placeholder="enter your plan" name="user_plan" class="form__input"  aria-label="enter your plan">
+            <button id="btnClick" type="button" class="form__btn" onclick="addMore()">Add</button>
+            <span id="error"></span>
+        </form>
+
+        <ul class="list"  id="box">
+
+        </ul>
+        <hr>
+        <ul class="checked-list"></ul>
+
+        <button id="all">All <span id="allResult">0</span></button>
+        <button id="complated">Complated<span id="complatedResult">0</span></button>
+        <button id="uncomplated">Uncomplated<span id="unComplatedResult">0</span></button>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

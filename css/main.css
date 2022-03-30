@@ -1,0 +1,91 @@
+body{
+    font-family: "Arial", sans-serif;
+    background-color: rgba(49, 48, 48, 0.945);
+}
+
+
+.container{
+    width: 1280px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__input{
+    width: 400px;
+    padding: 12px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form__btn{
+    width: 90px;
+    padding: 15px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+span{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.list{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.delete-link{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.checkbox{
+    margin-left: 20px;
+}
+
+.checked-list{
+    color: white;
+    font-size: 18px;
+}
+
+#all, #complated, #uncomplated{
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    color: blue;
+    border: none;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#allResult, #complatedResult, #unComplatedResult{
+    display: inline-block;
+    margin-left: 5px;
+}
+
